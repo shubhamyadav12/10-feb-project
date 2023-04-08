@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #02021f;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}  
+header{
+    display: flex;
+}
+ul{
+    display: flex;
+    position: absolute;
+    right: 0;
+    gap: 6%;
+    margin-right: 6%;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.berger{
+    position: absolute;
+    left: 0;
+    height: 2rem;
+    display: none;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.developer{
+    color: rgb(152, 230, 34);
+}
+.right-section{
+    justify-content: center;
+    align-items: center;
+
+}
+.hiihand{
+    height: 2rem;
+}
+.left-section img{
+    height: 50vh;
+    margin-top: 30px;
+}
+.down-items{
+    justify-content: center;
+    align-items: center;
+}
+.grid-img-section{
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+}
+.grid-img-section img{
+    height: 200px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social {
+    margin: 0 10px;
+  }
+  
+.socialMedia a {
+    font-size: 0; 
+  }
+
+  .socialMedia a img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px; 
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contact {
+    justify-content: center;
+    margin-left: 45.5%;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    -moz-text-decoration-color: blue;
+}
+  .product{
+    margin-left: 46%;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+  
+  footer a .outloook{
+    height: 35px;
+    width: auto;
+  }
